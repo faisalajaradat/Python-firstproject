@@ -1,0 +1,85 @@
+/* Reset some basic elements for consistency */
+html, body, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Apply a centered container for the content */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style task input form */
+form {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button hover */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the to-do list itself */
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+li:first-child {
+    border-top: none;
+}
+
+/* Style each to-do item and delete link */
+li a {
+    text-decoration: none;
+    color: #ff5c5c;
+    font-weight: bold;
+    float: right;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
