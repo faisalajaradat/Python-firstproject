@@ -1,1 +1,1 @@
-Basic Flask Project.
+Basic Flask Project w/ Todo Functionality
